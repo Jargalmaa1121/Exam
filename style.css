@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #000000;
+}
+.nav{
+    flex-wrap: wrap;
+    max-width: 1512px;
+    height: 44px;
+    justify-content: space-between;
+    margin: auto;
+}
+.nav li{
+    list-style: none;
+    align-items: center;
+    margin-top: 15px;
+}
+.navitems li a{
+    color: white;
+    position: fixed;
+}
+.navitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+section{
+    max-width: 1512px;
+    margin: auto;
+}
+h1{
+    font-size: 56px;
+    weight: 700;
+    line-height: 60px;
+}
+img{
+    /* width: 100%; */
+}
+h2{
+    font-size: 28px;
+}
+p{
+    font-size: 21px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    text-align: center;  
+}
+.img{
+    width: 665px;
+    height: 499px;
+    margin-top: 30px;
+}
+.iphone{
+    line-height: 80%;
+}
+.title a{
+    color: blue;
+}
+.ahref{
+    display: flex;
+    justify-content: center;  
+}
+.ahref :last-child{
+    margin-left: 30px;
+}
+.pro{
+    background-image: url(./images/figure@2x.png);
+    height: 692px;
+    background-size: cover;
+    width: 870px;
+    color: white;
+    background-color: #000000;    
+}
+
+.section pro{
+    background-color: black;
+}
+.watch{
+    padding: 7rem;
+}
